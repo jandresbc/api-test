@@ -29,7 +29,6 @@ Route.get('/', async () => {
 
 //Authentication
 Route.post('/auth', async ({ request, auth, response }) => {
-  console.log(request.all())
   const authschema = schema.create({
     email: schema.string({}, [
       rules.email()
