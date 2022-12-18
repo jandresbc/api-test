@@ -13,7 +13,7 @@
     MYSQL_PASSWORD=
     MYSQL_DB_NAME=laboratory
 
-Nota: la base de datos se desarrollo con el motor mysql, configurar el .env a las configuraciones locales.
+    Nota: la base de datos se desarrollo con el motor mysql, configurar el .env a las configuraciones locales.
 3. ingresar al proyecto: cd api-test
 4. ejecutar el comando npm install o npm install --force
 5. ejecutar las migraciones, una vez configurada el archivo .env: node ace migration:run
